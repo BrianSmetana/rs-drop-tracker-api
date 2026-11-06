@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RS Drop Tracker</title>
+<style>
+  :root { --bg:#14161a; --card:#1d2025; --fg:#e6e6e6; --muted:#8b93a0; --line:#2c3037; --accent:#e0a526; --bad:#d9534f; --good:#4caf50; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg:#f5f3ee; --card:#fff; --fg:#1c1c1c; --muted:#666; --line:#e0dccf; --accent:#a96f00; --bad:#b3342f; --good:#2e7d32; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { margin: 0 0 4px; font-size: 24px; }
+  p.sub { margin: 0 0 20px; color: var(--muted); }
+  form { display:flex; gap:8px; margin-bottom: 20px; }
+  input { flex:1; min-width:0; padding:10px 12px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--fg); font:inherit; }
+  button { padding:10px 16px; border:0; border-radius:6px; background:var(--accent); color:#111; font:inherit; font-weight:600; cursor:pointer; }
+  .msg { padding:12px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--muted); }
+  .boss { background:var(--card); border:1px solid var(--line); border-radius:8px; margin-bottom:12px; }
+  .boss > summary { padding:12px 14px; cursor:pointer; display:flex; justify-content:space-between; gap:12px; }
+  .boss > summary span:last-child { color:var(--muted); }
+  table { width:100%; border-collapse:collapse; }
+  th, td { padding:8px 14px; text-align:right; border-top:1px solid var(--line); white-space:nowrap; }
+  th:first-child, td:first-child { white-space:normal; }
+  @media (max-width: 480px) { th, td { padding:8px 8px; font-size:14px; } }
+  th:first-child, td:first-child { text-align:left; }
+  th { color:var(--muted); font-weight:500; font-size:13px; }
+  .scroll { overflow-x:auto; }
+  .lucky { color:var(--good); } .dry { color:var(--bad); }
+  .panel { padding:0 14px 14px; }
+  .panel label { display:flex; gap:8px; align-items:center; margin:10px 0; }
+  .panel input[type=checkbox] { flex:none; }
+  .panel .msg { margin-top:10px; }
+  .panel form.profile { display:block; margin:10px 0 0; }
+  #manage { margin-top:20px; }
+  .toolbar { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:12px 0; }
+  .toolbar input[type=text], .toolbar input:not([type]) { flex:1; min-width:180px; }
+  .toolbar label { display:flex; gap:6px; align-items:center; color:var(--muted); white-space:nowrap; }
+  .boss.empty > summary span:first-child { color:var(--muted); }
+  tr.got td { font-weight:600; }
+  tr.got td:first-child { color:var(--accent); }
+  footer { margin-top:28px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>RS Drop Tracker</h1>
+  <p class="sub">Look up a player's synced kill counts, drops and luck.</p>
+  <form id="f">
+    <input id="name" placeholder="Player name" maxlength="12" autocomplete="off" aria-label="Player name">
+    <button>Look up</button>
+  </form>
+  <div id="out"></div>
+  <details class="boss" id="manage">
+    <summary><span>Opt in / manage my page</span><span>needs your plugin token</span></summary>
+    <div class="panel">
+      <form id="tokenForm">
+        <input id="token" type="password" placeholder="Plugin token (player_id.secret)" autocomplete="off" aria-label="Plugin token">
+        <button>Connect</button>
+      </form>
+      <div id="manageOut"></div>
+    </div>
+  </details>
+  <footer>Data is sent by the player's plugin and is public for anyone who opted in, like the hiscores. Players can opt out at any time.</footer>
+</main>
+<script>
+const out = document.getElementById("out");
+const input = document.getElementById("name");
+
+function el(tag, text, cls) {
+  const e = document.createElement(tag);
+  if (text !== undefined) e.textContent = text;
+  if (cls) e.className = cls;
+  return e;
+}
+function message(text) { out.replaceChildren(el("div", text, "msg")); }
+
+// Fixed rates read "1/128"; enrage/streak-dependent ones are just "varies" (the full wording is the tooltip).
+function fmtRate(i) {
+  if (i.rarity && /^\d+\/\d+$/.test(i.rarity)) return i.rarity;
+  if (i.rarity) return "varies";
+  return i.rate > 0 ? "1/" + Math.round(1 / i.rate).toLocaleString() : "—";
+}
+
+function renderBoss(b) {
+  const got = b.items.filter(i => i.drops > 0).length;
+  const d = el("details", undefined, "boss" + (b.has_data ? "" : " empty"));
+  const s = el("summary");
+  const meta = b.has_data
+    ? b.tracked_kills.toLocaleString() + " kills · " + got + "/" + b.items.length + " rares"
+    : b.items.length + " rares · no kills yet";
+  s.append(el("span", b.boss), el("span", meta));
+  d.append(s);
+  const wrap = el("div", undefined, "scroll");
+  const t = el("table");
+  const head = el("tr");
+  (b.has_data ? ["Item", "Rate", "Drops", "Expected", "Luck"] : ["Item", "Rate"]).forEach(h => head.append(el("th", h)));
+  t.append(head);
+  for (const i of b.items) {
+    const tr = el("tr", undefined, i.drops > 0 ? "got" : "");
+    const rate = el("td", fmtRate(i));
+    if (i.rarity && !/^\d+\/\d+$/.test(i.rarity)) rate.title = i.rarity;
+    tr.append(el("td", (i.drops > 0 ? "✓ " : "") + i.item), rate);
+    if (b.has_data) {
+      const p = i.percentile;
+      tr.append(
+        el("td", String(i.drops)),
+        el("td", i.expected_drops.toFixed(2)),
+        el("td", p === null ? "—" : p.toFixed(0) + "th", p === null ? "" : p >= 75 ? "lucky" : p <= 25 ? "dry" : "")
+      );
+    }
+    t.append(tr);
+  }
+  wrap.append(t);
+  d.append(wrap);
+  d.open = b.has_data && got > 0;
+  return d;
+}
+
+function renderResults(data) {
+  const bosses = [...data.bosses].sort((a, b) =>
+    (b.has_data - a.has_data) || (b.tracked_kills - a.tracked_kills) || a.boss.localeCompare(b.boss));
+  const withData = bosses.filter(b => b.has_data).length;
+  const total = bosses.reduce((n, b) => n + b.items.length, 0);
+  const got = bosses.reduce((n, b) => n + b.items.filter(i => i.drops > 0).length, 0);
+
+  const sub = data.last_synced ? "Last synced " + new Date(data.last_synced).toLocaleString() : "Nothing synced yet";
+  const stats = el("div", got + " of " + total + " rare drops obtained · " + withData + " of " + bosses.length + " bosses with kills", "msg");
+
+  const bar = el("div", undefined, "toolbar");
+  const filter = el("input");
+  filter.placeholder = "Filter bosses or items"; filter.setAttribute("aria-label", "Filter bosses or items");
+  const label = el("label");
+  const only = el("input"); only.type = "checkbox";
+  label.append(only, el("span", "Only bosses with kills"));
+  bar.append(filter, label);
+
+  const list = el("div");
+  const show = () => {
+    const q = filter.value.trim().toLowerCase();
+    const cards = bosses
+      .filter(b => (!only.checked || b.has_data) &&
+        (!q || b.boss.toLowerCase().includes(q) || b.items.some(i => i.item.toLowerCase().includes(q))))
+      .map(renderBoss);
+    if (q) cards.forEach(c => { c.open = true; });
+    list.replaceChildren(...(cards.length ? cards : [el("div", "No bosses match.", "msg")]));
+  };
+  filter.addEventListener("input", show);
+  only.addEventListener("change", show);
+  show();
+
+  out.replaceChildren(el("h2", data.username), el("p", sub, "sub"), stats, bar, list);
+}
+
+async function lookup(name) {
+  name = name.trim();
+  if (!name) return;
+  history.replaceState(null, "", "#" + encodeURIComponent(name));
+  message("Loading…");
+  try {
+    const r = await fetch("/v1/players/" + encodeURIComponent(name) + "/summary");
+    if (r.status === 404) return message("No public data for that player. They may not use the plugin or may have opted out.");
+    if (!r.ok) return message("Lookup failed (" + r.status + ").");
+    renderResults(await r.json());
+  } catch (e) {
+    message("Could not reach the server.");
+  }
+}
+
+document.getElementById("f").addEventListener("submit", e => { e.preventDefault(); lookup(input.value); });
+// --- opt in / manage (token is kept in memory only, never stored or put in a URL) ---
+const manageOut = document.getElementById("manageOut");
+let authHeader = null;
+
+function note(text) { manageOut.replaceChildren(el("div", text, "msg")); }
+
+async function api(path, options = {}) {
+  const r = await fetch(path, { ...options, headers: { "Content-Type": "application/json", Authorization: authHeader } });
+  let body = null;
+  try { body = await r.json(); } catch (e) {}
+  return { ok: r.ok, status: r.status, body };
+}
+
+function renderManage(me) {
+  const form = el("form", undefined, "profile");
+  const name = el("input");
+  name.placeholder = "In-game name"; name.maxLength = 12; name.value = me.username || ""; name.setAttribute("aria-label", "In-game name");
+  const label = el("label");
+  const box = el("input"); box.type = "checkbox"; box.checked = me.public;
+  label.append(box, el("span", "Show my stats publicly under this name (anyone who knows it can see them)"));
+  const save = el("button", "Save");
+  const row = el("div"); row.style.cssText = "display:flex;gap:8px";
+  row.append(name, save);
+  form.append(row, label);
+  form.addEventListener("submit", async e => {
+    e.preventDefault();
+    const r = await api("/v1/me/profile", { method: "POST", body: JSON.stringify({ username: name.value, public: box.checked }) });
+    if (r.status === 409) return note("That name is already linked to another plugin install.");
+    if (r.status === 422) return note("Names are 1-12 letters, digits, spaces or hyphens.");
+    if (!r.ok) return note("Save failed (" + r.status + ").");
+    await loadManage(r.body.public ? "Saved. Your page is public." : "Saved. Your page is hidden.");
+    if (r.body.public) { location.hash = encodeURIComponent(r.body.username); }
+  });
+  const status = me.username
+    ? "Linked as " + me.username + " (" + (me.public ? "public" : "hidden") + ")."
+    : "Not linked to a name yet. Your stats are private until you opt in.";
+  return [el("div", status, "msg"), form];
+}
+
+async function loadManage(extra) {
+  const r = await api("/v1/me/summary");
+  if (r.status === 401) { authHeader = null; return note("That token wasn't recognised."); }
+  if (!r.ok) return note("Could not load your data (" + r.status + ").");
+  const kills = r.body.bosses.reduce((n, b) => n + b.tracked_kills, 0);
+  manageOut.replaceChildren(
+    ...(extra ? [el("div", extra, "msg")] : []),
+    ...renderManage(r.body),
+    el("div", r.body.bosses.length + " boss(es) synced, " + kills.toLocaleString() + " tracked kills.", "msg")
+  );
+}
+
+document.getElementById("tokenForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const t = document.getElementById("token");
+  const value = t.value.trim();
+  if (!value) return;
+  authHeader = "Bearer " + value;
+  t.value = "";
+  loadManage();
+});
+
+function fromHash() {
+  const name = decodeURIComponent(location.hash.slice(1));
+  if (name && name !== input.value.trim()) { input.value = name; lookup(name); }
+}
+window.addEventListener("hashchange", fromHash);
+fromHash();
+</script>
+</body>
+</html>

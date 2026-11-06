@@ -1,0 +1,5549 @@
+{
+ "_note": "Rare drops only, filtered from wiki_drops_raw.json by tools/curate_rare.py (wiki rare/unique tables). Scraped from runescape.wiki DropsLine templates (rarity as a/b only; Common/Rare/Always etc. skipped). rate = per-roll chance; rolls defaults to 1 and is NOT verified - several bosses roll tables more than once or have mode-specific tables (see \"table\"). Verify before trusting percentiles.",
+ "_source": "https://runescape.wiki",
+ "_scraped": "2026-10-13",
+ "Amascut, the Devourer": {
+  "Vital spark": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "5/1000",
+   "table": "Rare table"
+  },
+  "Vital spark [Rare table]": {
+   "rate": 0.003,
+   "rolls": 1,
+   "rarity": "3/1000",
+   "table": "Rare table"
+  },
+  "Cursed Amascut sand": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "2/1000",
+   "table": "Rare table"
+  },
+  "Cursed Amascut sand [Rare table]": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "2/500",
+   "table": "Rare table"
+  },
+  "Amascut's crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Amascut's promise": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Amascut's promise [Tertiary]": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Tertiary"
+  },
+  "Devourer's Guard": {
+   "rate": 0.00020833333333333335,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00020833333333333335
+    ],
+    [
+     100,
+     0.0017857142857142857
+    ],
+    [
+     500,
+     0.0020833333333333333
+    ],
+    [
+     750,
+     0.0025
+    ],
+    [
+     1000,
+     0.0035714285714285713
+    ],
+    [
+     2000,
+     0.005
+    ]
+   ]
+  },
+  "Tumeken's Light": {
+   "rate": 0.00020833333333333335,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00020833333333333335
+    ],
+    [
+     100,
+     0.0017857142857142857
+    ],
+    [
+     500,
+     0.0020833333333333333
+    ],
+    [
+     750,
+     0.0025
+    ],
+    [
+     1000,
+     0.0035714285714285713
+    ],
+    [
+     2000,
+     0.005
+    ]
+   ]
+  },
+  "Mask of Tumeken's resplendence": {
+   "rate": 0.00025,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00025
+    ],
+    [
+     100,
+     0.002142857142857143
+    ],
+    [
+     500,
+     0.0025
+    ],
+    [
+     750,
+     0.003
+    ],
+    [
+     1000,
+     0.004285714285714286
+    ],
+    [
+     2000,
+     0.006
+    ]
+   ]
+  },
+  "Robe top of Tumeken's resplendence": {
+   "rate": 0.00025,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00025
+    ],
+    [
+     100,
+     0.002142857142857143
+    ],
+    [
+     500,
+     0.0025
+    ],
+    [
+     750,
+     0.003
+    ],
+    [
+     1000,
+     0.004285714285714286
+    ],
+    [
+     2000,
+     0.006
+    ]
+   ]
+  },
+  "Robe bottom of Tumeken's resplendence": {
+   "rate": 0.00025,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00025
+    ],
+    [
+     100,
+     0.002142857142857143
+    ],
+    [
+     500,
+     0.0025
+    ],
+    [
+     750,
+     0.003
+    ],
+    [
+     1000,
+     0.004285714285714286
+    ],
+    [
+     2000,
+     0.006
+    ]
+   ]
+  },
+  "Gloves of Tumeken's resplendence": {
+   "rate": 0.00025,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00025
+    ],
+    [
+     100,
+     0.002142857142857143
+    ],
+    [
+     500,
+     0.0025
+    ],
+    [
+     750,
+     0.003
+    ],
+    [
+     1000,
+     0.004285714285714286
+    ],
+    [
+     2000,
+     0.006
+    ]
+   ]
+  },
+  "Boots of Tumeken's resplendence": {
+   "rate": 0.00025,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00025
+    ],
+    [
+     100,
+     0.002142857142857143
+    ],
+    [
+     500,
+     0.0025
+    ],
+    [
+     750,
+     0.003
+    ],
+    [
+     1000,
+     0.004285714285714286
+    ],
+    [
+     2000,
+     0.006
+    ]
+   ]
+  },
+  "Shard of Genesis Essence": {
+   "rate": 0,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0
+    ],
+    [
+     100,
+     0.0035714285714285713
+    ],
+    [
+     500,
+     0.004166666666666667
+    ],
+    [
+     750,
+     0.005
+    ],
+    [
+     1000,
+     0.007142857142857143
+    ],
+    [
+     2000,
+     0.01
+    ]
+   ]
+  },
+  "The Devourer's Nexus (unattuned)": {
+   "rate": 0.0013333333333333333,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0013333333333333333
+    ],
+    [
+     100,
+     0.0035714285714285713
+    ],
+    [
+     500,
+     0.004166666666666667
+    ],
+    [
+     750,
+     0.005
+    ],
+    [
+     1000,
+     0.007142857142857143
+    ],
+    [
+     2000,
+     0.01
+    ]
+   ]
+  }
+ },
+ "Araxxi": {
+  "Spider leg top": {
+   "rate": 0.025,
+   "rolls": 1,
+   "rarity": "1/40",
+   "table": "Solo"
+  },
+  "Spider leg middle": {
+   "rate": 0.025,
+   "rolls": 1,
+   "rarity": "1/40",
+   "table": "Solo"
+  },
+  "Spider leg bottom": {
+   "rate": 0.025,
+   "rolls": 1,
+   "rarity": "1/40",
+   "table": "Solo"
+  },
+  "Araxxi's fang": {
+   "rate": 0.004166666666666667,
+   "rolls": 1,
+   "rarity": "1/240",
+   "table": "Solo"
+  },
+  "Araxxi's web": {
+   "rate": 0.004166666666666667,
+   "rolls": 1,
+   "rarity": "1/240",
+   "table": "Solo"
+  },
+  "Araxxi's eye": {
+   "rate": 0.004166666666666667,
+   "rolls": 1,
+   "rarity": "1/240",
+   "table": "Solo"
+  },
+  "Araxyte pet": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Solo"
+  },
+  "Araxyte egg": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Solo"
+  },
+  "Araxxor's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Solo"
+  }
+ },
+ "Arch-Glacor": {
+  "Crystal triskelion": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Main"
+  },
+  "Glacor core": {
+   "rate": 5.555555555555556e-05,
+   "rolls": 1,
+   "rarity": "1/18000",
+   "table": "Tertiary"
+  },
+  "Arch-Glacor core": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Dark nilas": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "1/100",
+   "table": "Main"
+  },
+  "Glacor core [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Leng artefact": {
+   "rate": 0.0005795,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "arch_glacor_unique",
+    "kind": "formula",
+    "a": 1500,
+    "b": 15,
+    "c": 25,
+    "cap": 1.0,
+    "share": 0.38
+   }
+  },
+  "Scripture of Wen": {
+   "rate": 0.0005795,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "arch_glacor_unique",
+    "kind": "formula",
+    "a": 1500,
+    "b": 15,
+    "c": 25,
+    "cap": 1.0,
+    "share": 0.38
+   }
+  },
+  "Frozen core of Leng": {
+   "rate": 0.000366,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "arch_glacor_unique",
+    "kind": "formula",
+    "a": 1500,
+    "b": 15,
+    "c": 25,
+    "cap": 1.0,
+    "share": 0.24
+   }
+  }
+ },
+ "Astellarn": {
+  "Greater Flurry ability codex": {
+   "rate": 0.012048192771084338,
+   "rolls": 1,
+   "rarity": "1/83",
+   "table": "Solo"
+  },
+  "Diary of an Overzealous Gnome [Solo]": {
+   "rate": 0.075,
+   "rolls": 1,
+   "rarity": "75/1000",
+   "table": "Solo"
+  },
+  "Onyx dust": {
+   "rate": 0.925,
+   "rolls": 1,
+   "rarity": "925/1000",
+   "table": "Solo"
+  },
+  "Greater Flurry ability codex [Duo]": {
+   "rate": 0.006024096385542169,
+   "rolls": 1,
+   "rarity": "1/166",
+   "table": "Duo"
+  },
+  "Diary of an Overzealous Gnome [Duo]": {
+   "rate": 0.05,
+   "rolls": 1,
+   "rarity": "50/1000",
+   "table": "Duo"
+  },
+  "Onyx dust [Duo]": {
+   "rate": 0.95,
+   "rolls": 1,
+   "rarity": "950/1000",
+   "table": "Duo"
+  },
+  "Greater Flurry ability codex [Trio]": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Trio"
+  },
+  "Diary of an Overzealous Gnome [Trio]": {
+   "rate": 0.042,
+   "rolls": 1,
+   "rarity": "42/1000",
+   "table": "Trio"
+  },
+  "Onyx dust [Trio]": {
+   "rate": 0.958,
+   "rolls": 1,
+   "rarity": "958/1000",
+   "table": "Trio"
+  }
+ },
+ "Beastmaster Durzag": {
+  "Achto Primeval mask": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Primeval gloves": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Primeval boots": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Tempest cowl": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Tempest gloves": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Tempest boots": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Teralith helmet": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Teralith gauntlets": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Achto Teralith boots": {
+   "rate": 0.005555555555555556,
+   "rolls": 1,
+   "rarity": "1/180",
+   "table": "Unique"
+  },
+  "Lil' Tuzzy": {
+   "rate": 0.00125,
+   "rolls": 1,
+   "rarity": "1/800",
+   "table": "Tertiary"
+  },
+  "Durzag's helmet": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Tertiary"
+  }
+ },
+ "Black stone dragon": {
+  "Greater Barge ability codex": {
+   "rate": 0.012048192771084338,
+   "rolls": 1,
+   "rarity": "1/83",
+   "table": "Solo"
+  },
+  "Draconic energy": {
+   "rate": 0.505,
+   "rolls": 1,
+   "rarity": "505/1000",
+   "table": "Solo"
+  },
+  "Draconic energy [Solo]": {
+   "rate": 0.25,
+   "rolls": 1,
+   "rarity": "250/1000",
+   "table": "Solo"
+  },
+  "Inert black stone crystal": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Solo"
+  },
+  "Greater Barge ability codex [Duo]": {
+   "rate": 0.006024096385542169,
+   "rolls": 1,
+   "rarity": "1/166",
+   "table": "Duo"
+  },
+  "Draconic energy [Duo]": {
+   "rate": 0.498,
+   "rolls": 1,
+   "rarity": "498/1000",
+   "table": "Duo"
+  },
+  "Inert black stone crystal [Duo]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Duo"
+  },
+  "Greater Barge ability codex [Trio]": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Trio"
+  },
+  "Draconic energy [Trio]": {
+   "rate": 0.498,
+   "rolls": 1,
+   "rarity": "498/1000",
+   "table": "Trio"
+  },
+  "Inert black stone crystal [Trio]": {
+   "rate": 0.0006666666666666666,
+   "rolls": 1,
+   "rarity": "1/1500",
+   "table": "Trio"
+  }
+ },
+ "Chaos Elemental": {
+  "Dragon 2h sword": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Pre-roll"
+  },
+  "Corrupt dragon battleaxe": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon dagger": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon longsword": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon mace": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon scimitar": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon spear": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon chainbody": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon helm": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon platelegs": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon plateskirt": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt dragon sq shield": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Statius's warhammer": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Vesta's longsword": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Vesta's spear": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Zuriel's staff": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Morrigan's javelin": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Morrigan's throwing axe": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Statius's full helm": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Statius's platebody": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Statius's platelegs": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Vesta's chainbody": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Vesta's plateskirt": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Zuriel's hood": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Zuriel's robe top": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Zuriel's robe bottom": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Morrigan's coif": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Morrigan's leather body": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Morrigan's leather chaps": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Statius's warhammer": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Vesta's longsword": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Vesta's spear": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Zuriel's staff": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Morrigan's javelin": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Morrigan's throwing axe": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Statius's full helm": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Statius's platebody": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Statius's platelegs": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Vesta's chainbody": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Vesta's plateskirt": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Zuriel's hood": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Zuriel's robe top": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Zuriel's robe bottom": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Morrigan's coif": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Morrigan's leather body": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Corrupt Morrigan's leather chaps": {
+   "rate": 3.487723214285714e-05,
+   "rolls": 1,
+   "rarity": "1/28672",
+   "table": "Ancient Warriors' equipment"
+  },
+  "Ribs of chaos": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  },
+  "Chaos Elemental's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Corrupt dragon battleaxe [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon dagger [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon longsword [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon mace [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon scimitar [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon spear [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon helm [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon platelegs [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon plateskirt [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  },
+  "Corrupt dragon sq shield [Corrupt dragon equipment]": {
+   "rate": 4.81486831335163e-05,
+   "rolls": 1,
+   "rarity": "1/20769",
+   "table": "Corrupt dragon equipment"
+  }
+ },
+ "Commander Zilyana": {
+  "Saradomin sword": {
+   "rate": 0.003125,
+   "rolls": 1,
+   "rarity": "1/320",
+   "table": "Unique"
+  },
+  "Armadyl crossbow": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique"
+  },
+  "Off-hand Armadyl crossbow": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique"
+  },
+  "Saradomin's murmur": {
+   "rate": 0.003125,
+   "rolls": 1,
+   "rarity": "1/320",
+   "table": "Unique"
+  },
+  "Saradomin's hiss": {
+   "rate": 0.003125,
+   "rolls": 1,
+   "rarity": "1/320",
+   "table": "Unique"
+  },
+  "Saradomin's whisper": {
+   "rate": 0.003125,
+   "rolls": 1,
+   "rarity": "1/320",
+   "table": "Unique"
+  },
+  "Saradomin hilt": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Unique"
+  },
+  "Godsword shard 1": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Godsword shard table"
+  },
+  "Godsword shard 2": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Godsword shard table"
+  },
+  "Godsword shard 3": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Godsword shard table"
+  },
+  "Coins": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Godsword shard table"
+  },
+  "Auburn lock": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Tertiary"
+  },
+  "Zilyana's wings": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Auburn lock [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  }
+ },
+ "Corporeal Beast": {
+  "Spectral sigil": {
+   "rate": 0.0009765625,
+   "rolls": 1,
+   "rarity": "1/1024",
+   "table": "Sigils"
+  },
+  "Arcane sigil": {
+   "rate": 0.0009765625,
+   "rolls": 1,
+   "rarity": "1/1024",
+   "table": "Sigils"
+  },
+  "Elysian sigil": {
+   "rate": 0.0009765625,
+   "rolls": 1,
+   "rarity": "1/1024",
+   "table": "Sigils"
+  },
+  "Divine sigil": {
+   "rate": 0.0009765625,
+   "rolls": 1,
+   "rarity": "1/1024",
+   "table": "Sigils"
+  },
+  "Corporeal bone": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  },
+  "Corporeal Beast's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Crassian Leviathan": {
+  "The Last Offering [Solo]": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Solo"
+  },
+  "Onyx dust": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Solo"
+  },
+  "Black stone arrow tips": {
+   "rate": 0.2,
+   "rolls": 1,
+   "rarity": "200/1000",
+   "table": "Solo"
+  },
+  "Black stone heart": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Solo"
+  },
+  "Huge blunt rune salvage": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Solo"
+  },
+  "Hydrix bolt tips": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Solo"
+  },
+  "Water talisman": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Solo"
+  },
+  "The Last Offering [Duo]": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Duo"
+  },
+  "Black stone heart [Duo]": {
+   "rate": 0.075,
+   "rolls": 1,
+   "rarity": "75/1000",
+   "table": "Duo"
+  },
+  "Water talisman [Duo]": {
+   "rate": 0.125,
+   "rolls": 1,
+   "rarity": "125/1000",
+   "table": "Duo"
+  },
+  "The Last Offering [Trio]": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Trio"
+  },
+  "Black stone heart [Trio]": {
+   "rate": 0.05,
+   "rolls": 1,
+   "rarity": "50/1000",
+   "table": "Trio"
+  },
+  "Water talisman [Trio]": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Trio"
+  }
+ },
+ "Croesus": {
+  "Croesus' head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Dagannoth Kings": {
+  "Dragon hatchet": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Common"
+  },
+  "Seers' ring": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Dagannoth Prime"
+  },
+  "Mud battlestaff": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Dagannoth Prime"
+  },
+  "Dagannoth king heads": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Dagannoth Prime"
+  },
+  "Warrior ring": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Dagannoth Rex"
+  },
+  "Berserker ring": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Dagannoth Rex"
+  },
+  "Archers' ring": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Dagannoth Supreme"
+  },
+  "Seercull": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Dagannoth Supreme"
+  },
+  "Dagannoth egg": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  },
+  "Shrivelled dagannoth claw": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  },
+  "Dagannoth scale": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  }
+ },
+ "Exiled Kalphite Queen": {
+  "Kalphite queen head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Kalphite egg": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  }
+ },
+ "Flesh-hatcher Mhekarnahz": {
+  "Dragon harpoon": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Pre-roll"
+  },
+  "Stalker's charm": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Pre-roll"
+  },
+  "Hexhunter bow": {
+   "rate": 1e-06,
+   "rolls": 1,
+   "rarity": "1/1000000",
+   "table": "Tertiary"
+  },
+  "Mhekarnahz's eye": {
+   "rate": 0.00125,
+   "rolls": 1,
+   "rarity": "1/800",
+   "table": "Tertiary"
+  },
+  "Flesh-hatcher Mhekarnahz's eye": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "General Graardor": {
+  "Bandos helmet": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Bandos chestplate": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Bandos tassets": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Bandos gloves": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Bandos boots": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Bandos warshield": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Bandos hilt": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Unique"
+  },
+  "Godsword shard 1": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Godsword shard table"
+  },
+  "Godsword shard 2": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Godsword shard table"
+  },
+  "Godsword shard 3": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Godsword shard table"
+  },
+  "Coins": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Godsword shard table"
+  },
+  "Decaying tooth": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Tertiary"
+  },
+  "General Graardor's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Decaying tooth [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  }
+ },
+ "Giant mole": {
+  "Numbing root": {
+   "rate": 0.08846153846153847,
+   "rolls": 1,
+   "rarity": "46/520",
+   "table": "Unique"
+  },
+  "Clingy mole": {
+   "rate": 0.009615384615384616,
+   "rolls": 1,
+   "rarity": "5/520",
+   "table": "Unique"
+  },
+  "Dragon 2h sword": {
+   "rate": 0.0019230769230769232,
+   "rolls": 1,
+   "rarity": "1/520",
+   "table": "Unique"
+  },
+  "Long bone": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Tertiary"
+  },
+  "Curved bone": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Tertiary"
+  },
+  "Rotten fang": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  },
+  "Giant mole's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Numbing root [Unique]": {
+   "rate": 0.09038461538461538,
+   "rolls": 1,
+   "rarity": "47/520",
+   "table": "Unique"
+  },
+  "Ultra-growth potion (1)": {
+   "rate": 0.057692307692307696,
+   "rolls": 1,
+   "rarity": "30/520",
+   "table": "Unique"
+  },
+  "Clingy mole [Unique]": {
+   "rate": 0.019230769230769232,
+   "rolls": 1,
+   "rarity": "10/520",
+   "table": "Unique"
+  },
+  "Dragon 2h sword [Unique]": {
+   "rate": 0.0038461538461538464,
+   "rolls": 1,
+   "rarity": "2/520",
+   "table": "Unique"
+  },
+  "Rotten fang [Tertiary]": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Gregorovic": {
+  "Dormant anima core helm": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Crest of Sliske": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Shadow glaive": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Off-hand shadow glaive": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Sliskean essence": {
+   "rate": 0.015625,
+   "rolls": 1,
+   "rarity": "1/64",
+   "table": "Pre-roll"
+  },
+  "Faceless mask": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Gregorovic's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Dormant anima core helm [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Crest of Sliske [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Shadow glaive [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Off-hand shadow glaive [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Sliskean essence [Pre-roll]": {
+   "rate": 0.022727272727272728,
+   "rolls": 1,
+   "rarity": "1/44",
+   "table": "Pre-roll"
+  },
+  "Faceless mask [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  }
+ },
+ "Har-Aken": {
+  "Shrimpy": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "threshold": 40,
+   "table": "Pet (unlocked via Volcanic shard)",
+   "note": "Numerator rises by 1 every 40 recorded kills: chance = (1 + floor((kc-1)/40))/200."
+  }
+ },
+ "Helwyr": {
+  "Dormant anima core helm": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Crest of Seren": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Wand of the Cywir elders": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Orb of the Cywir elders": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Serenic essence": {
+   "rate": 0.015625,
+   "rolls": 1,
+   "rarity": "1/64",
+   "table": "Pre-roll"
+  },
+  "Twisted antler": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Helwyr's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Dormant anima core helm [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Crest of Seren [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Wand of the Cywir elders [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Orb of the Cywir elders [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Serenic essence [Pre-roll]": {
+   "rate": 0.022727272727272728,
+   "rolls": 1,
+   "rarity": "1/44",
+   "table": "Pre-roll"
+  },
+  "Twisted antler [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  }
+ },
+ "Hermod, the Spirit of War": {
+  "Hermodic plate": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "1/10",
+   "table": "Unique items"
+  },
+  "Hermod's armour spike": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Hermod's helmet": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Ivar, King of Bones": {
+  "Bonecrusher maul": {
+   "rate": 0.015625,
+   "rolls": 1,
+   "rarity": "1/64",
+   "table": "Unique"
+  },
+  "Magic skull mask": {
+   "rate": 0.015625,
+   "rolls": 1,
+   "rarity": "1/64",
+   "table": "Unique"
+  },
+  "Ivar's loincloth": {
+   "rate": 0.0008,
+   "rolls": 1,
+   "rarity": "1/1250",
+   "table": "Tertiary"
+  },
+  "Ivar's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Kalphite King": {
+  "Drygore rapier": {
+   "rate": 0.003968253968253968,
+   "rolls": 1,
+   "rarity": "1/252",
+   "table": "Pre-roll"
+  },
+  "Off-hand drygore rapier": {
+   "rate": 0.003968253968253968,
+   "rolls": 1,
+   "rarity": "1/252",
+   "table": "Pre-roll"
+  },
+  "Drygore longsword": {
+   "rate": 0.003968253968253968,
+   "rolls": 1,
+   "rarity": "1/252",
+   "table": "Pre-roll"
+  },
+  "Off-hand drygore longsword": {
+   "rate": 0.003968253968253968,
+   "rolls": 1,
+   "rarity": "1/252",
+   "table": "Pre-roll"
+  },
+  "Drygore mace": {
+   "rate": 0.003968253968253968,
+   "rolls": 1,
+   "rarity": "1/252",
+   "table": "Pre-roll"
+  },
+  "Off-hand drygore mace": {
+   "rate": 0.003968253968253968,
+   "rolls": 1,
+   "rarity": "1/252",
+   "table": "Pre-roll"
+  },
+  "Kalphite claw": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Kalphite King's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Kalphite Queen": {
+  "Dragon chainbody": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Pre-roll"
+  },
+  "Dragon 2h sword": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Kalphite queen head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Kalphite egg": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  }
+ },
+ "Kerapac, the bound": {
+  "Kerapac's wrist wraps": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Unique"
+  },
+  "Greater Concentrated blast ability codex": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Unique"
+  },
+  "Scripture of Jas": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Unique"
+  },
+  "Kerapac's mask piece": {
+   "rate": 0.0003333333333333333,
+   "rolls": 1,
+   "rarity": "1/3000",
+   "table": "Tertiary"
+  },
+  "Kerapac's time-torn Staff of Armadyl": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Staff of Armadyl's fractured shaft": {
+   "rate": 0.0008333333333333334,
+   "rolls": 1,
+   "rarity": "1/1200",
+   "table": "Unique"
+  },
+  "Fractured stabilisation gem": {
+   "rate": 0.0008333333333333334,
+   "rolls": 1,
+   "rarity": "1/1200",
+   "table": "Unique"
+  },
+  "Fractured Armadyl symbol": {
+   "rate": 0.0008333333333333334,
+   "rolls": 1,
+   "rarity": "1/1200",
+   "table": "Unique"
+  },
+  "Kerapac's wrist wraps [Unique]": {
+   "rate": 0.0018472222222222223,
+   "rolls": 1,
+   "rarity": "399/216000",
+   "table": "Unique"
+  },
+  "Greater Concentrated blast ability codex [Unique]": {
+   "rate": 0.0018472222222222223,
+   "rolls": 1,
+   "rarity": "399/216000",
+   "table": "Unique"
+  },
+  "Scripture of Jas [Unique]": {
+   "rate": 0.0018472222222222223,
+   "rolls": 1,
+   "rarity": "399/216000",
+   "table": "Unique"
+  },
+  "Kerapac's mask piece [Tertiary]": {
+   "rate": 0.0006666666666666666,
+   "rolls": 1,
+   "rarity": "1/1500",
+   "table": "Tertiary"
+  }
+ },
+ "Kezalam, the Wanderer": {
+  "Divine Rage prayer codex": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Unique"
+  },
+  "Scripture of Amascut": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Unique"
+  },
+  "Divine Rage prayer codex [Unique]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Unique"
+  },
+  "Scripture of Amascut [Unique]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Unique"
+  }
+ },
+ "King Black Dragon": {
+  "Dragon Rider gloves": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Unique"
+  },
+  "Dragon Rider boots": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Unique"
+  },
+  "Dragon kite ornament kit (or)": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Unique"
+  },
+  "Dragon kite ornament kit (sp)": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Unique"
+  },
+  "King black dragon head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Black dragon egg (unchecked)": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Last riders": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Draconic visage": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Tertiary"
+  },
+  "King black dragon scale": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Tertiary"
+  }
+ },
+ "Kree'arra": {
+  "Armadyl helmet": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Armadyl chestplate": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Armadyl chainskirt": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Armadyl gloves": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Armadyl boots": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Armadyl buckler": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Unique"
+  },
+  "Armadyl hilt": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Unique"
+  },
+  "Godsword shard 1": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Unique"
+  },
+  "Godsword shard 2": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Unique"
+  },
+  "Godsword shard 3": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Unique"
+  },
+  "Giant feather": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Tertiary"
+  },
+  "Long bone": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Tertiary"
+  },
+  "Curved bone": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Tertiary"
+  },
+  "Kree'arra's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Giant feather [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  }
+ },
+ "K'ril Tsutsaroth": {
+  "Hood of subjugation": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Garb of subjugation": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Gown of subjugation": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Gloves of subjugation": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Boots of subjugation": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Ward of subjugation": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Zamorakian spear": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Steam battlestaff": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Godsword shard 1": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Uniques"
+  },
+  "Godsword shard 2": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Uniques"
+  },
+  "Godsword shard 3": {
+   "rate": 0.0013020833333333333,
+   "rolls": 1,
+   "rarity": "1/768",
+   "table": "Uniques"
+  },
+  "Zamorak hilt": {
+   "rate": 0.001953125,
+   "rolls": 1,
+   "rarity": "1/512",
+   "table": "Uniques"
+  },
+  "Severed hoof": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Tertiary drops"
+  },
+  "K'ril Tsutsaroth shoulder guard": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary drops"
+  },
+  "Severed hoof [Tertiary drops]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary drops"
+  }
+ },
+ "Legio Primus": {
+  "Ascension grips": {
+   "rate": 0.00048638132295719845,
+   "rolls": 1,
+   "rarity": "1/2056",
+   "table": "Tertiary"
+  },
+  "Corrupted Ascension signet I": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Legio crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Legio Quartus": {
+  "Ascension grips": {
+   "rate": 0.00048638132295719845,
+   "rolls": 1,
+   "rarity": "1/2056",
+   "table": "Tertiary"
+  },
+  "Corrupted Ascension signet IV": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Legio crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Legio Quintus": {
+  "Ascension grips": {
+   "rate": 0.00048638132295719845,
+   "rolls": 1,
+   "rarity": "1/2056",
+   "table": "Tertiary"
+  },
+  "Corrupted Ascension signet V": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Legio crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Legio Secundus": {
+  "Ascension grips": {
+   "rate": 0.00048638132295719845,
+   "rolls": 1,
+   "rarity": "1/2056",
+   "table": "Tertiary"
+  },
+  "Corrupted Ascension signet II": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Legio crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Legio Sextus": {
+  "Ascension grips": {
+   "rate": 0.00048638132295719845,
+   "rolls": 1,
+   "rarity": "1/2056",
+   "table": "Tertiary"
+  },
+  "Corrupted Ascension signet VI": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Legio crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Legio Tertius": {
+  "Ascension grips": {
+   "rate": 0.00048638132295719845,
+   "rolls": 1,
+   "rarity": "1/2056",
+   "table": "Tertiary"
+  },
+  "Corrupted Ascension signet III": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Legio crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Masuta the Ascended": {
+  "Masuta's warspear": {
+   "rate": 0.05,
+   "rolls": 1,
+   "rarity": "1/20",
+   "table": "Solo"
+  },
+  "Himiko's Vision [Solo]": {
+   "rate": 0.02,
+   "rolls": 1,
+   "rarity": "2/100",
+   "table": "Solo"
+  },
+  "Onyx dust": {
+   "rate": 0.98,
+   "rolls": 1,
+   "rarity": "98/100",
+   "table": "Solo"
+  },
+  "Masuta's warspear [Duo]": {
+   "rate": 0.030303030303030304,
+   "rolls": 1,
+   "rarity": "1/33",
+   "table": "Duo"
+  },
+  "Himiko's Vision [Duo]": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "1/100",
+   "table": "Duo"
+  },
+  "Onyx dust [Duo]": {
+   "rate": 0.99,
+   "rolls": 1,
+   "rarity": "99/100",
+   "table": "Duo"
+  },
+  "Masuta's warspear [Trio]": {
+   "rate": 0.02,
+   "rolls": 1,
+   "rarity": "1/50",
+   "table": "Trio"
+  },
+  "Himiko's Vision [Trio]": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "1/100",
+   "table": "Trio"
+  },
+  "Onyx dust [Trio]": {
+   "rate": 0.99,
+   "rolls": 1,
+   "rarity": "99/100",
+   "table": "Trio"
+  }
+ },
+ "Nakatra, Devourer Eternal": {
+  "Divine Rage prayer codex": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Unique"
+  },
+  "Scripture of Amascut": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Unique"
+  },
+  "Roar of Awakening": {
+   "rate": 0.006666666666666667,
+   "rolls": 1,
+   "rarity": "1/150",
+   "table": "Unique"
+  },
+  "Ode to Deceit": {
+   "rate": 0.006666666666666667,
+   "rolls": 1,
+   "rarity": "1/150",
+   "table": "Unique"
+  },
+  "Nefthys' tooth": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Tertiary"
+  },
+  "Divine Rage prayer codex [Unique]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Unique"
+  },
+  "Scripture of Amascut [Unique]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Unique"
+  },
+  "Roar of Awakening [Unique]": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Ode to Deceit [Unique]": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Shard of Genesis Essence": {
+   "rate": 0.013333333333333334,
+   "rolls": 1,
+   "rarity": "1/75",
+   "table": "Unique"
+  },
+  "Nefthys' tooth [Tertiary]": {
+   "rate": 0.004166666666666667,
+   "rolls": 1,
+   "rarity": "1/240",
+   "table": "Tertiary"
+  }
+ },
+ "Nex": {
+  "Torva full helm": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Torva platebody": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Torva platelegs": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Torva boots": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Torva gloves": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Pernix cowl": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Pernix body": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Pernix chaps": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Pernix boots": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Pernix gloves": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Virtus mask": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Virtus robe top": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Virtus robe legs": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Virtus boots": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Virtus gloves": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Virtus wand": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Virtus book": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Zaryte bow": {
+   "rate": 0.0026041666666666665,
+   "rolls": 1,
+   "rarity": "1/384",
+   "table": "Pre-roll"
+  },
+  "Blood-soaked feather": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Nex's wings": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Nex, Angel of Death": {
+  "Praesul codex": {
+   "rate": 0.027777777777777776,
+   "rolls": 1,
+   "rarity": "1/36",
+   "table": "Pre-roll"
+  },
+  "Wand of the praesul": {
+   "rate": 0.0035211267605633804,
+   "rolls": 1,
+   "rarity": "1/284",
+   "table": "Pre-roll"
+  },
+  "Wand of the praesul [Pre-roll]": {
+   "rate": 0.0001,
+   "rolls": 1,
+   "rarity": "1/10000",
+   "table": "Pre-roll"
+  },
+  "Imperium core": {
+   "rate": 0.0035211267605633804,
+   "rolls": 1,
+   "rarity": "1/284",
+   "table": "Pre-roll"
+  },
+  "Imperium core [Pre-roll]": {
+   "rate": 0.0001,
+   "rolls": 1,
+   "rarity": "1/10000",
+   "table": "Pre-roll"
+  },
+  "Intricate smoke-shrouded chest": {
+   "rate": 0.000244140625,
+   "rolls": 1,
+   "rarity": "1/4096",
+   "table": "Pre-roll"
+  },
+  "Intricate shadow chest": {
+   "rate": 0.000244140625,
+   "rolls": 1,
+   "rarity": "1/4096",
+   "table": "Pre-roll"
+  },
+  "Intricate blood stained chest": {
+   "rate": 0.000244140625,
+   "rolls": 1,
+   "rarity": "1/4096",
+   "table": "Pre-roll"
+  },
+  "Intricate ice chest": {
+   "rate": 0.000244140625,
+   "rolls": 1,
+   "rarity": "1/4096",
+   "table": "Pre-roll"
+  },
+  "Blood tentacle": {
+   "rate": 0.0003333333333333333,
+   "rolls": 1,
+   "rarity": "1/3000",
+   "table": "Tertiary"
+  },
+  "Nex's elemental crystals": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Osseous": {
+  "Savage spear tip": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Pre-rolls"
+  },
+  "Savage spear cap": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Pre-rolls"
+  },
+  "Savage plume": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Pre-rolls"
+  },
+  "Savage spear shaft": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Pre-rolls"
+  },
+  "Heart of the Berserker": {
+   "rate": 0.0044444444444444444,
+   "rolls": 1,
+   "rarity": "1/225",
+   "table": "Pre-rolls"
+  }
+ },
+ "Queen Black Dragon": {
+  "Black dragon egg (unchecked)": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Main drop"
+  },
+  "Draconic visage": {
+   "rate": 0.009174311926605505,
+   "rolls": 1,
+   "rarity": "1/109",
+   "table": "Main drop"
+  },
+  "Royal torsion spring": {
+   "rate": 0.019762845849802372,
+   "rolls": 1,
+   "rarity": "5/253",
+   "table": "Unique"
+  },
+  "Royal sight": {
+   "rate": 0.019762845849802372,
+   "rolls": 1,
+   "rarity": "5/253",
+   "table": "Unique"
+  },
+  "Royal frame": {
+   "rate": 0.019762845849802372,
+   "rolls": 1,
+   "rarity": "5/253",
+   "table": "Unique"
+  },
+  "Royal bolt stabiliser": {
+   "rate": 0.019762845849802372,
+   "rolls": 1,
+   "rarity": "5/253",
+   "table": "Unique"
+  },
+  "Dragonbone upgrade kit": {
+   "rate": 0.007905138339920948,
+   "rolls": 1,
+   "rarity": "2/253",
+   "table": "Unique"
+  },
+  "Dragon kiteshield": {
+   "rate": 0.003952569169960474,
+   "rolls": 1,
+   "rarity": "1/253",
+   "table": "Unique"
+  },
+  "Queen Black Dragon scale": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Pet"
+  },
+  "Queen Black Dragon's shackles": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Trophy"
+  }
+ },
+ "Raksha, the Shadow Colossus": {
+  "Broken shackle": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Raksha's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Rasial, the First Necromancer": {
+  "Omni guard": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique items"
+  },
+  "Soulbound lantern": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique items"
+  },
+  "Crown of the First Necromancer": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique items"
+  },
+  "Robe top of the First Necromancer": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique items"
+  },
+  "Robe bottom of the First Necromancer": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique items"
+  },
+  "Hand wrap of the First Necromancer": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique items"
+  },
+  "Foot wraps of the First Necromancer": {
+   "rate": 0.0015625,
+   "rolls": 1,
+   "rarity": "1/640",
+   "table": "Unique items"
+  },
+  "Miso's collar": {
+   "rate": 0.0006666666666666666,
+   "rolls": 1,
+   "rarity": "1/1500",
+   "table": "Tertiary"
+  },
+  "Rasial's crown": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Rex Matriarchs": {
+  "Savage spear tip": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Common"
+  },
+  "Savage spear cap": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Common"
+  },
+  "Savage plume": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Common"
+  },
+  "Savage spear shaft": {
+   "rate": 0.0022222222222222222,
+   "rolls": 1,
+   "rarity": "1/450",
+   "table": "Common"
+  },
+  "Heart of the Berserker": {
+   "rate": 0.0044444444444444444,
+   "rolls": 1,
+   "rarity": "1/225",
+   "table": "Common"
+  }
+ },
+ "Seiryu the Azure Serpent": {
+  "Ancient scale": {
+   "rate": 0.5,
+   "rolls": 1,
+   "rarity": "50/100",
+   "table": "Solo"
+  },
+  "Ancient scale [Solo]": {
+   "rate": 0.25,
+   "rolls": 1,
+   "rarity": "25/100",
+   "table": "Solo"
+  },
+  "Chipped black stone crystal": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Solo"
+  },
+  "Ancient scale [Duo]": {
+   "rate": 0.25,
+   "rolls": 1,
+   "rarity": "25/100",
+   "table": "Duo"
+  },
+  "Chipped black stone crystal [Duo]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Duo"
+  },
+  "Ancient scale [Trio]": {
+   "rate": 0.25,
+   "rolls": 1,
+   "rarity": "25/100",
+   "table": "Trio"
+  },
+  "Chipped black stone crystal [Trio]": {
+   "rate": 0.0006666666666666666,
+   "rolls": 1,
+   "rarity": "1/1500",
+   "table": "Trio"
+  }
+ },
+ "Silverquill, the Dreadhog": {
+  "Long bone": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Tertiary"
+  },
+  "Silverquill's blood-filled cyst": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Silverquill's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Solak, Guardian of the Grove": {
+  "Erethdor's grimoire": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Unique"
+  },
+  "Blightbound crossbow": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Unique"
+  },
+  "Off-hand Blightbound crossbow": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Unique"
+  },
+  "Purple mushroom": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Merethiel's stave": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Cinderbane gloves": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Torn grimoire page": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Tertiary"
+  },
+  "Ancient elven ritual shard": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Imbued bark shard": {
+   "rate": 0.0008333333333333334,
+   "rolls": 1,
+   "rarity": "1/1200",
+   "table": "Tertiary"
+  },
+  "Solak's core": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "Taraket the Necromancer": {
+  "Kranon's Ancient Journal [Solo]": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Solo"
+  },
+  "Onyx dust": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Solo"
+  },
+  "Black stone arrow tips": {
+   "rate": 0.05,
+   "rolls": 1,
+   "rarity": "50/1000",
+   "table": "Solo"
+  },
+  "Black stone heart": {
+   "rate": 0.07,
+   "rolls": 1,
+   "rarity": "70/1000",
+   "table": "Solo"
+  },
+  "Black stone heart [Solo]": {
+   "rate": 0.125,
+   "rolls": 1,
+   "rarity": "125/1000",
+   "table": "Solo"
+  },
+  "Huge blunt rune salvage": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Solo"
+  },
+  "Hydrix bolt tips": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Solo"
+  },
+  "Hydrix bolt tips [Solo]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "5/1000",
+   "table": "Solo"
+  },
+  "Black dragonhide": {
+   "rate": 0.05,
+   "rolls": 1,
+   "rarity": "50/1000",
+   "table": "Solo"
+  },
+  "Ghostly essence": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Solo"
+  },
+  "Reinforced dragon bones": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Solo"
+  },
+  "Kranon's Ancient Journal [Duo]": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Duo"
+  },
+  "Black stone heart [Duo]": {
+   "rate": 0.075,
+   "rolls": 1,
+   "rarity": "75/1000",
+   "table": "Duo"
+  },
+  "Kranon's Ancient Journal [Trio]": {
+   "rate": 0.1,
+   "rolls": 1,
+   "rarity": "100/1000",
+   "table": "Trio"
+  },
+  "Black stone arrow tips [Trio]": {
+   "rate": 0.2,
+   "rolls": 1,
+   "rarity": "200/1000",
+   "table": "Trio"
+  },
+  "Black stone heart [Trio]": {
+   "rate": 0.2,
+   "rolls": 1,
+   "rarity": "200/1000",
+   "table": "Trio"
+  },
+  "Hydrix bolt tips [Trio]": {
+   "rate": 0.15,
+   "rolls": 1,
+   "rarity": "150/1000",
+   "table": "Trio"
+  }
+ },
+ "Telos, the Warden": {
+  "Telos' sword": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Unique drops (any enrage)"
+  },
+  "Telos' tendril": {
+   "rate": 0.0007142857142857143,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0007142857142857143
+    ],
+    [
+     100,
+     0.0014285714285714286
+    ]
+   ],
+   "threshold": 300
+  },
+  "Anima orb": {
+   "rate": 8.260869565217392e-05,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "telos_unique",
+    "kind": "formula",
+    "a": 1000,
+    "b": 25,
+    "c": 300,
+    "mult": [
+     [
+      0,
+      0.03333333333333333
+     ],
+     [
+      25,
+      0.1
+     ],
+     [
+      100,
+      1.0
+     ]
+    ],
+    "cap": 0.06666666666666667,
+    "share": 0.6521739130434783
+   }
+  },
+  "Dormant Seren godbow": {
+   "rate": 1.1014492753623188e-05,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "telos_unique",
+    "kind": "formula",
+    "a": 1000,
+    "b": 25,
+    "c": 300,
+    "mult": [
+     [
+      0,
+      0.03333333333333333
+     ],
+     [
+      25,
+      0.1
+     ],
+     [
+      100,
+      1.0
+     ]
+    ],
+    "cap": 0.06666666666666667,
+    "share": 0.08695652173913043
+   }
+  },
+  "Dormant staff of Sliske": {
+   "rate": 1.1014492753623188e-05,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "telos_unique",
+    "kind": "formula",
+    "a": 1000,
+    "b": 25,
+    "c": 300,
+    "mult": [
+     [
+      0,
+      0.03333333333333333
+     ],
+     [
+      25,
+      0.1
+     ],
+     [
+      100,
+      1.0
+     ]
+    ],
+    "cap": 0.06666666666666667,
+    "share": 0.08695652173913043
+   }
+  },
+  "Dormant Zaros godsword": {
+   "rate": 1.1014492753623188e-05,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "telos_unique",
+    "kind": "formula",
+    "a": 1000,
+    "b": 25,
+    "c": 300,
+    "mult": [
+     [
+      0,
+      0.03333333333333333
+     ],
+     [
+      25,
+      0.1
+     ],
+     [
+      100,
+      1.0
+     ]
+    ],
+    "cap": 0.06666666666666667,
+    "share": 0.08695652173913043
+   }
+  },
+  "Reprisal ability codex": {
+   "rate": 1.1014492753623188e-05,
+   "rolls": 1,
+   "rarity": "varies with enrage and streak",
+   "table": "Enrage/streak-based",
+   "streak": {
+    "group": "telos_unique",
+    "kind": "formula",
+    "a": 1000,
+    "b": 25,
+    "c": 300,
+    "mult": [
+     [
+      0,
+      0.03333333333333333
+     ],
+     [
+      25,
+      0.1
+     ],
+     [
+      100,
+      1.0
+     ]
+    ],
+    "cap": 0.06666666666666667,
+    "share": 0.08695652173913043
+   }
+  }
+ },
+ "The Ambassador": {
+  "Eldritch crossbow limb": {
+   "rate": 0.006060606060606061,
+   "rolls": 1,
+   "rarity": "1/165",
+   "table": "Unique"
+  },
+  "Eldritch crossbow stock": {
+   "rate": 0.006060606060606061,
+   "rolls": 1,
+   "rarity": "1/165",
+   "table": "Unique"
+  },
+  "Eldritch crossbow mechanism": {
+   "rate": 0.006060606060606061,
+   "rolls": 1,
+   "rarity": "1/165",
+   "table": "Unique"
+  },
+  "Umbral urn": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Main"
+  },
+  "Eldritch crossbow limb [Unique]": {
+   "rate": 0.003003003003003003,
+   "rolls": 1,
+   "rarity": "1/333",
+   "table": "Unique"
+  },
+  "Eldritch crossbow stock [Unique]": {
+   "rate": 0.003003003003003003,
+   "rolls": 1,
+   "rarity": "1/333",
+   "table": "Unique"
+  },
+  "Eldritch crossbow mechanism [Unique]": {
+   "rate": 0.003003003003003003,
+   "rolls": 1,
+   "rarity": "1/333",
+   "table": "Unique"
+  },
+  "Umbral urn [Main]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Main"
+  },
+  "Crystal triskelion": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "10/1000",
+   "table": "Secondary"
+  }
+ },
+ "The Gate of Elidinis": {
+  "The Gate of Elidinis (trophy)": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary drops"
+  }
+ },
+ "The Magister": {
+  "Phylactery": {
+   "rate": 0.05555555555555555,
+   "rolls": 1,
+   "rarity": "1/18",
+   "table": "Unique"
+  },
+  "Key to the Crossing": {
+   "rate": 0.0078125,
+   "rolls": 1,
+   "rarity": "1/128",
+   "table": "Unique"
+  },
+  "Gloves of passage": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Unique"
+  },
+  "Soul fragment (The Magister)": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Soul obelisk (trophy)": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "The Sanctum Guardian": {
+  "Crassian Allegiance [Solo]": {
+   "rate": 0.02,
+   "rolls": 1,
+   "rarity": "2/100",
+   "table": "Solo"
+  },
+  "Onyx dust": {
+   "rate": 0.93,
+   "rolls": 1,
+   "rarity": "93/100",
+   "table": "Solo"
+  },
+  "Fishy treat": {
+   "rate": 0.05,
+   "rolls": 1,
+   "rarity": "5/100",
+   "table": "Solo"
+  },
+  "Crassian Allegiance [Duo]": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "1/100",
+   "table": "Duo"
+  },
+  "Onyx dust [Duo]": {
+   "rate": 0.96,
+   "rolls": 1,
+   "rarity": "96/100",
+   "table": "Duo"
+  },
+  "Fishy treat [Duo]": {
+   "rate": 0.03,
+   "rolls": 1,
+   "rarity": "3/100",
+   "table": "Duo"
+  },
+  "Crassian Allegiance [Trio]": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "1/100",
+   "table": "Trio"
+  },
+  "Onyx dust [Trio]": {
+   "rate": 0.97,
+   "rolls": 1,
+   "rarity": "97/100",
+   "table": "Trio"
+  },
+  "Fishy treat [Trio]": {
+   "rate": 0.02,
+   "rolls": 1,
+   "rarity": "2/100",
+   "table": "Trio"
+  }
+ },
+ "The Twin Furies": {
+  "Dormant anima core helm": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Crest of Zamorak": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Blade of Avaryss": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Blade of Nymora": {
+   "rate": 0.00390625,
+   "rolls": 1,
+   "rarity": "1/256",
+   "table": "Pre-roll"
+  },
+  "Zamorakian essence": {
+   "rate": 0.015625,
+   "rolls": 1,
+   "rarity": "1/64",
+   "table": "Pre-roll"
+  },
+  "Avaryss' braid": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Nymora's braid": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Wings of the Twin Furies": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Dormant anima core helm [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Crest of Zamorak [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Blade of Avaryss [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Blade of Nymora [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Zamorakian essence [Pre-roll]": {
+   "rate": 0.022727272727272728,
+   "rolls": 1,
+   "rarity": "1/44",
+   "table": "Pre-roll"
+  },
+  "Avaryss' braid [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Nymora's braid [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  }
+ },
+ "TzKal-Zuk": {
+  "Scripture of Ful": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "1/100",
+   "table": "Normal mode"
+  },
+  "Magma Tempest ability codex": {
+   "rate": 0.01,
+   "rolls": 1,
+   "rarity": "1/100",
+   "table": "Normal mode"
+  },
+  "Scripture of Ful [Hard mode]": {
+   "rate": 0.02,
+   "rolls": 1,
+   "rarity": "1/50",
+   "table": "Hard mode"
+  },
+  "Magma Tempest ability codex [Hard mode]": {
+   "rate": 0.02,
+   "rolls": 1,
+   "rarity": "1/50",
+   "table": "Hard mode"
+  },
+  "TzKal-Zuk's armour piece": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Normal mode"
+  },
+  "TzKal-Zuk's armour piece [Hard mode]": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Hard mode"
+  }
+ },
+ "Verak Lith": {
+  "Greater Fury ability codex": {
+   "rate": 0.012048192771084338,
+   "rolls": 1,
+   "rarity": "1/83",
+   "table": "Solo"
+  },
+  "Redacted Dragonkin Research [Solo]": {
+   "rate": 0.075,
+   "rolls": 1,
+   "rarity": "75/1000",
+   "table": "Solo"
+  },
+  "Onyx dust": {
+   "rate": 0.925,
+   "rolls": 1,
+   "rarity": "925/1000",
+   "table": "Solo"
+  },
+  "Greater Fury ability codex [Duo]": {
+   "rate": 0.006024096385542169,
+   "rolls": 1,
+   "rarity": "1/166",
+   "table": "Duo"
+  },
+  "Redacted Dragonkin Research [Duo]": {
+   "rate": 0.05,
+   "rolls": 1,
+   "rarity": "50/1000",
+   "table": "Duo"
+  },
+  "Onyx dust [Duo]": {
+   "rate": 0.95,
+   "rolls": 1,
+   "rarity": "950/1000",
+   "table": "Duo"
+  },
+  "Greater Fury ability codex [Trio]": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Trio"
+  },
+  "Redacted Dragonkin Research [Trio]": {
+   "rate": 0.042,
+   "rolls": 1,
+   "rarity": "42/1000",
+   "table": "Trio"
+  },
+  "Onyx dust [Trio]": {
+   "rate": 0.958,
+   "rolls": 1,
+   "rarity": "958/1000",
+   "table": "Trio"
+  }
+ },
+ "Vermyx, Brood Mother": {
+  "Divine Rage prayer codex": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Unique"
+  },
+  "Scripture of Amascut": {
+   "rate": 0.004,
+   "rolls": 1,
+   "rarity": "1/250",
+   "table": "Unique"
+  },
+  "Divine Rage prayer codex [Unique]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Unique"
+  },
+  "Scripture of Amascut [Unique]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Unique"
+  }
+ },
+ "Vindicta & Gorvek": {
+  "Dormant anima core helm": {
+   "rate": 0.00392156862745098,
+   "rolls": 1,
+   "rarity": "1/255",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body": {
+   "rate": 0.00392156862745098,
+   "rolls": 1,
+   "rarity": "1/255",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs": {
+   "rate": 0.00392156862745098,
+   "rolls": 1,
+   "rarity": "1/255",
+   "table": "Pre-roll"
+  },
+  "Crest of Zaros": {
+   "rate": 0.00392156862745098,
+   "rolls": 1,
+   "rarity": "1/255",
+   "table": "Pre-roll"
+  },
+  "Dragon Rider lance": {
+   "rate": 0.00392156862745098,
+   "rolls": 1,
+   "rarity": "1/255",
+   "table": "Pre-roll"
+  },
+  "Zarosian essence": {
+   "rate": 0.015625,
+   "rolls": 1,
+   "rarity": "1/64",
+   "table": "Pre-roll"
+  },
+  "Imbued blade slice": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Glimmering scale": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Tertiary"
+  },
+  "Gorvek's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  },
+  "Dormant anima core helm [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core body [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dormant anima core legs [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Crest of Zaros [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Dragon Rider lance [Pre-roll]": {
+   "rate": 0.00558659217877095,
+   "rolls": 1,
+   "rarity": "1/179",
+   "table": "Pre-roll"
+  },
+  "Zarosian essence [Pre-roll]": {
+   "rate": 0.022727272727272728,
+   "rolls": 1,
+   "rarity": "1/44",
+   "table": "Pre-roll"
+  },
+  "Imbued blade slice [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  },
+  "Glimmering scale [Tertiary]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Tertiary"
+  }
+ },
+ "Vorago": {
+  "Seismic wand": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Pre-roll"
+  },
+  "Seismic singularity": {
+   "rate": 0.0025,
+   "rolls": 1,
+   "rarity": "1/400",
+   "table": "Pre-roll"
+  },
+  "Ancient summoning stone": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Pre-roll"
+  },
+  "Vorago's arm": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Pre-roll"
+  },
+  "Seismic wand [Pre-roll]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Pre-roll"
+  },
+  "Seismic singularity [Pre-roll]": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Pre-roll"
+  },
+  "Ancient summoning stone [Pre-roll]": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Pre-roll"
+  },
+  "Ancient artefact": {
+   "rate": 0.02,
+   "rolls": 1,
+   "rarity": "1/50",
+   "table": "Pre-roll"
+  }
+ },
+ "Yakamaru": {
+  "Achto Primeval robe top": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Achto Primeval robe legs": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Achto Tempest body": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Achto Tempest chaps": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Achto Teralith cuirass": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Achto Teralith leggings": {
+   "rate": 0.008333333333333333,
+   "rolls": 1,
+   "rarity": "1/120",
+   "table": "Unique"
+  },
+  "Yakamaru's helmet": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Tertiary"
+  }
+ },
+ "Zamorak, Lord of Chaos": {
+  "Jewels of Zamorak": {
+   "rate": 0.0033333333333333335,
+   "rolls": 1,
+   "rarity": "1/300",
+   "table": "Solo encounter"
+  },
+  "Zamorak's Edict runes": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Solo encounter"
+  },
+  "Jewels of Zamorak [Group encounter]": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Group encounter"
+  },
+  "Codex of lost knowledge": {
+   "rate": 0.0034999999999999996,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0034999999999999996
+    ],
+    [
+     20,
+     0.003535353535353535
+    ],
+    [
+     50,
+     0.003608247422680412
+    ],
+    [
+     100,
+     0.0040625
+    ],
+    [
+     150,
+     0.004220779220779221
+    ],
+    [
+     200,
+     0.004513888888888889
+    ],
+    [
+     300,
+     0.004850746268656716
+    ],
+    [
+     400,
+     0.005241935483870968
+    ],
+    [
+     500,
+     0.005769230769230769
+    ],
+    [
+     750,
+     0.006170212765957446
+    ],
+    [
+     900,
+     0.007124999999999999
+    ],
+    [
+     1000,
+     0.007432432432432433
+    ],
+    [
+     1250,
+     0.007571428571428572
+    ],
+    [
+     1500,
+     0.008548387096774194
+    ],
+    [
+     2000,
+     0.008928571428571428
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Chaos Roar ability codex": {
+   "rate": 0.0016499999999999998,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0016499999999999998
+    ],
+    [
+     20,
+     0.0016666666666666666
+    ],
+    [
+     50,
+     0.0017010309278350513
+    ],
+    [
+     100,
+     0.0020624999999999992
+    ],
+    [
+     150,
+     0.002142857142857142
+    ],
+    [
+     200,
+     0.002291666666666666
+    ],
+    [
+     300,
+     0.0024626865671641784
+    ],
+    [
+     400,
+     0.0026612903225806442
+    ],
+    [
+     500,
+     0.003173076923076922
+    ],
+    [
+     750,
+     0.0035106382978723396
+    ],
+    [
+     900,
+     0.004125000000000001
+    ],
+    [
+     1000,
+     0.004459459459459459
+    ],
+    [
+     1250,
+     0.004714285714285713
+    ],
+    [
+     1500,
+     0.005322580645161289
+    ],
+    [
+     2000,
+     0.005892857142857142
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Vestments of havoc hood": {
+   "rate": 0.0009000000000000001,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0009000000000000001
+    ],
+    [
+     20,
+     0.0009090909090909092
+    ],
+    [
+     50,
+     0.0009278350515463918
+    ],
+    [
+     100,
+     0.001125
+    ],
+    [
+     150,
+     0.0011688311688311688
+    ],
+    [
+     200,
+     0.00125
+    ],
+    [
+     300,
+     0.0013432835820895521
+    ],
+    [
+     400,
+     0.0014516129032258063
+    ],
+    [
+     500,
+     0.0017307692307692306
+    ],
+    [
+     750,
+     0.0019148936170212765
+    ],
+    [
+     900,
+     0.0022500000000000007
+    ],
+    [
+     1000,
+     0.0024324324324324327
+    ],
+    [
+     1250,
+     0.0025714285714285717
+    ],
+    [
+     1500,
+     0.002903225806451613
+    ],
+    [
+     2000,
+     0.0032142857142857147
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Vestments of havoc robe top": {
+   "rate": 0.0009000000000000001,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0009000000000000001
+    ],
+    [
+     20,
+     0.0009090909090909092
+    ],
+    [
+     50,
+     0.0009278350515463918
+    ],
+    [
+     100,
+     0.001125
+    ],
+    [
+     150,
+     0.0011688311688311688
+    ],
+    [
+     200,
+     0.00125
+    ],
+    [
+     300,
+     0.0013432835820895521
+    ],
+    [
+     400,
+     0.0014516129032258063
+    ],
+    [
+     500,
+     0.0017307692307692306
+    ],
+    [
+     750,
+     0.0019148936170212765
+    ],
+    [
+     900,
+     0.0022500000000000007
+    ],
+    [
+     1000,
+     0.0024324324324324327
+    ],
+    [
+     1250,
+     0.0025714285714285717
+    ],
+    [
+     1500,
+     0.002903225806451613
+    ],
+    [
+     2000,
+     0.0032142857142857147
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Vestments of havoc robe bottom": {
+   "rate": 0.0009000000000000001,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0009000000000000001
+    ],
+    [
+     20,
+     0.0009090909090909092
+    ],
+    [
+     50,
+     0.0009278350515463918
+    ],
+    [
+     100,
+     0.001125
+    ],
+    [
+     150,
+     0.0011688311688311688
+    ],
+    [
+     200,
+     0.00125
+    ],
+    [
+     300,
+     0.0013432835820895521
+    ],
+    [
+     400,
+     0.0014516129032258063
+    ],
+    [
+     500,
+     0.0017307692307692306
+    ],
+    [
+     750,
+     0.0019148936170212765
+    ],
+    [
+     900,
+     0.0022500000000000007
+    ],
+    [
+     1000,
+     0.0024324324324324327
+    ],
+    [
+     1250,
+     0.0025714285714285717
+    ],
+    [
+     1500,
+     0.002903225806451613
+    ],
+    [
+     2000,
+     0.0032142857142857147
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Vestments of havoc boots": {
+   "rate": 0.0009000000000000001,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.0009000000000000001
+    ],
+    [
+     20,
+     0.0009090909090909092
+    ],
+    [
+     50,
+     0.0009278350515463918
+    ],
+    [
+     100,
+     0.001125
+    ],
+    [
+     150,
+     0.0011688311688311688
+    ],
+    [
+     200,
+     0.00125
+    ],
+    [
+     300,
+     0.0013432835820895521
+    ],
+    [
+     400,
+     0.0014516129032258063
+    ],
+    [
+     500,
+     0.0017307692307692306
+    ],
+    [
+     750,
+     0.0019148936170212765
+    ],
+    [
+     900,
+     0.0022500000000000007
+    ],
+    [
+     1000,
+     0.0024324324324324327
+    ],
+    [
+     1250,
+     0.0025714285714285717
+    ],
+    [
+     1500,
+     0.002903225806451613
+    ],
+    [
+     2000,
+     0.0032142857142857147
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Top of the Last Guardian's bow": {
+   "rate": 0.00041666666666666664,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00041666666666666664
+    ],
+    [
+     20,
+     0.00042087542087542086
+    ],
+    [
+     50,
+     0.000429553264604811
+    ],
+    [
+     100,
+     0.0006249999999999999
+    ],
+    [
+     150,
+     0.0006493506493506494
+    ],
+    [
+     200,
+     0.0006944444444444444
+    ],
+    [
+     300,
+     0.0007462686567164178
+    ],
+    [
+     400,
+     0.0008064516129032257
+    ],
+    [
+     500,
+     0.0011217948717948717
+    ],
+    [
+     750,
+     0.0013120567375886525
+    ],
+    [
+     900,
+     0.0015833333333333335
+    ],
+    [
+     1000,
+     0.0018018018018018018
+    ],
+    [
+     1250,
+     0.0019999999999999996
+    ],
+    [
+     1500,
+     0.002258064516129032
+    ],
+    [
+     2000,
+     0.0026785714285714286
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Divine bowstring": {
+   "rate": 0.00041666666666666664,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00041666666666666664
+    ],
+    [
+     20,
+     0.00042087542087542086
+    ],
+    [
+     50,
+     0.000429553264604811
+    ],
+    [
+     100,
+     0.0006249999999999999
+    ],
+    [
+     150,
+     0.0006493506493506494
+    ],
+    [
+     200,
+     0.0006944444444444444
+    ],
+    [
+     300,
+     0.0007462686567164178
+    ],
+    [
+     400,
+     0.0008064516129032257
+    ],
+    [
+     500,
+     0.0011217948717948717
+    ],
+    [
+     750,
+     0.0013120567375886525
+    ],
+    [
+     900,
+     0.0015833333333333335
+    ],
+    [
+     1000,
+     0.0018018018018018018
+    ],
+    [
+     1250,
+     0.0019999999999999996
+    ],
+    [
+     1500,
+     0.002258064516129032
+    ],
+    [
+     2000,
+     0.0026785714285714286
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  "Bottom of the Last Guardian's bow": {
+   "rate": 0.00041666666666666664,
+   "rolls": 1,
+   "rarity": "varies with enrage",
+   "table": "Enrage-based",
+   "enrage": [
+    [
+     0,
+     0.00041666666666666664
+    ],
+    [
+     20,
+     0.00042087542087542086
+    ],
+    [
+     50,
+     0.000429553264604811
+    ],
+    [
+     100,
+     0.0006249999999999999
+    ],
+    [
+     150,
+     0.0006493506493506494
+    ],
+    [
+     200,
+     0.0006944444444444444
+    ],
+    [
+     300,
+     0.0007462686567164178
+    ],
+    [
+     400,
+     0.0008064516129032257
+    ],
+    [
+     500,
+     0.0011217948717948717
+    ],
+    [
+     750,
+     0.0013120567375886525
+    ],
+    [
+     900,
+     0.0015833333333333335
+    ],
+    [
+     1000,
+     0.0018018018018018018
+    ],
+    [
+     1250,
+     0.0019999999999999996
+    ],
+    [
+     1500,
+     0.002258064516129032
+    ],
+    [
+     2000,
+     0.0026785714285714286
+    ]
+   ],
+   "streak": {
+    "group": "zamorak_signature",
+    "kind": "blm",
+    "min_enrage": 100,
+    "start": 10,
+    "base": [
+     [
+      0,
+      100
+     ],
+     [
+      20,
+      99
+     ],
+     [
+      50,
+      97
+     ],
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      77
+     ],
+     [
+      200,
+      72
+     ],
+     [
+      300,
+      67
+     ],
+     [
+      400,
+      62
+     ],
+     [
+      500,
+      52
+     ],
+     [
+      750,
+      47
+     ],
+     [
+      900,
+      40
+     ],
+     [
+      1000,
+      37
+     ],
+     [
+      1250,
+      35
+     ],
+     [
+      1500,
+      31
+     ],
+     [
+      2000,
+      28
+     ]
+    ],
+    "tiers": [
+     [
+      100,
+      1,
+      20
+     ],
+     [
+      500,
+      2,
+      20
+     ],
+     [
+      1000,
+      4,
+      10
+     ],
+     [
+      2000,
+      8,
+      5
+     ]
+    ]
+   }
+  }
+ },
+ "Zemouregal & Vorkath": {
+  "Vorkath's scale": {
+   "rate": 0.006666666666666667,
+   "rolls": 1,
+   "rarity": "1/150",
+   "table": "Unique rewards"
+  },
+  "Vorkath Necromancy weapon override token": {
+   "rate": 0.0002,
+   "rolls": 1,
+   "rarity": "1/5000",
+   "table": "Normal mode"
+  },
+  "Vorkath's claw": {
+   "rate": 0.0005,
+   "rolls": 1,
+   "rarity": "1/2000",
+   "table": "Normal mode"
+  },
+  "Vorkath's head": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Normal mode"
+  },
+  "Vorkath Necromancy weapon override token [Hard mode]": {
+   "rate": 0.0004,
+   "rolls": 1,
+   "rarity": "1/2500",
+   "table": "Hard mode"
+  },
+  "Vorkath's claw [Hard mode]": {
+   "rate": 0.001,
+   "rolls": 1,
+   "rarity": "1/1000",
+   "table": "Hard mode"
+  }
+ },
+ "The Barrows Brothers": {
+  "Linza's helm": {
+   "rate": 0.0020833333333333333,
+   "rolls": 1,
+   "rarity": "1/480",
+   "table": "Linza the Disgraced's equipment",
+   "note": "Reward chest: 1/96 to hit the Linza table (only if Linza killed), then 1/5 per item = 1/480. Rolled once per chest."
+  },
+  "Linza's cuirass": {
+   "rate": 0.0020833333333333333,
+   "rolls": 1,
+   "rarity": "1/480",
+   "table": "Linza the Disgraced's equipment",
+   "note": "Reward chest: 1/96 to hit the Linza table (only if Linza killed), then 1/5 per item = 1/480. Rolled once per chest."
+  },
+  "Linza's greaves": {
+   "rate": 0.0020833333333333333,
+   "rolls": 1,
+   "rarity": "1/480",
+   "table": "Linza the Disgraced's equipment",
+   "note": "Reward chest: 1/96 to hit the Linza table (only if Linza killed), then 1/5 per item = 1/480. Rolled once per chest."
+  },
+  "Linza's hammer": {
+   "rate": 0.0020833333333333333,
+   "rolls": 1,
+   "rarity": "1/480",
+   "table": "Linza the Disgraced's equipment",
+   "note": "Reward chest: 1/96 to hit the Linza table (only if Linza killed), then 1/5 per item = 1/480. Rolled once per chest."
+  },
+  "Linza's shield": {
+   "rate": 0.0020833333333333333,
+   "rolls": 1,
+   "rarity": "1/480",
+   "table": "Linza the Disgraced's equipment",
+   "note": "Reward chest: 1/96 to hit the Linza table (only if Linza killed), then 1/5 per item = 1/480. Rolled once per chest."
+  },
+  "Ahrim's hood": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Ahrim's robe top": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Ahrim's robe skirt": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Ahrim's staff": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Ahrim's wand": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Ahrim's book of magic": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Dharok's helm": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Dharok's platebody": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Dharok's platelegs": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Dharok's greataxe": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Torag's helm": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Torag's platebody": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Torag's platelegs": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Torag's hammer": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Verac's helm": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Verac's brassard": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Verac's plateskirt": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Verac's flail": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Guthan's helm": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Guthan's platebody": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Guthan's chainskirt": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Guthan's warspear": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Karil's coif": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Karil's top": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Karil's skirt": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Karil's crossbow": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Karil's pistol crossbow": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Karil's off-hand pistol crossbow": {
+   "rate": 0.000380517503805175,
+   "rolls": 7,
+   "rarity": "1/2628",
+   "table": "Other Barrows equipment"
+  },
+  "Akrisae's hood": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Akrisae's robe top": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Akrisae's robe skirt": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  },
+  "Akrisae's war mace": {
+   "rate": 0.0005707762557077625,
+   "rolls": 7,
+   "rarity": "1/1752",
+   "table": "Other Barrows equipment"
+  }
+ },
+ "The Barrows: Rise of the Six": {
+  "Malevolent kiteshield": {
+   "rate": 0.004166666666666667,
+   "rolls": 1,
+   "rarity": "1/240",
+   "table": "Unique"
+  },
+  "Merciless kiteshield": {
+   "rate": 0.004166666666666667,
+   "rolls": 1,
+   "rarity": "1/240",
+   "table": "Unique"
+  },
+  "Vengeful kiteshield": {
+   "rate": 0.004166666666666667,
+   "rolls": 1,
+   "rarity": "1/240",
+   "table": "Unique"
+  },
+  "Rise of the Six chest": {
+   "rate": 0.002,
+   "rolls": 1,
+   "rarity": "1/500",
+   "table": "Tertiary"
+  }
+ },
+ "TzTok-Jad": {
+  "Volcanic shard": {
+   "rate": 0.005,
+   "rolls": 1,
+   "rarity": "1/200",
+   "table": "Tertiary"
+  }
+ },
+ "_aliases": {
+  "Araxxor": "Araxxi",
+  "Gorvek": "Vindicta & Gorvek",
+  "Vindicta": "Vindicta & Gorvek",
+  "Gorvek and Vindicta": "Vindicta & Gorvek",
+  "Avaryss, the Unceasing": "The Twin Furies",
+  "Nymora, the Vengeful": "The Twin Furies",
+  "Dagannoth Prime": "Dagannoth Kings",
+  "Dagannoth Rex": "Dagannoth Kings",
+  "Dagannoth Supreme": "Dagannoth Kings",
+  "Orikalka": "Rex Matriarchs",
+  "Rathis": "Rex Matriarchs",
+  "Pthentraken": "Rex Matriarchs",
+  "TzekHaar-Aken": "TzTok-Jad",
+  "Rise of the Six": "The Barrows: Rise of the Six",
+  "Barrows: Rise of the Six": "The Barrows: Rise of the Six",
+  "Rise of the Six (boss)": "The Barrows: Rise of the Six"
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Drop Tracker",
+  "version": "0.2.0",
+  "contactEmailAddress": "CHANGE_ME@example.com",
+  "optionalPermissions": ["httpAccess", "chatAccess"],
+  "requiredDependencies": { "prettyui": 6398181 },
+  "urls": {
+    "api": "http://127.0.0.1:8000"
+  }
+}
